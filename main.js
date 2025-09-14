@@ -1,2 +1,3 @@
-let name = "mash";
-console.log(`moo! ${name}`);
+const moo = require("./moo.js");
+
+console.log(moo("heifer"));
